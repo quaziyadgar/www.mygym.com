@@ -1,0 +1,91 @@
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+
+}
+
+.left img {
+    width: 110px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 29px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 20px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(69, 241, 170);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 60px 60px;
+    padding: 25px;
+    width: 25%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
